@@ -218,7 +218,7 @@ namespace GradeBookTests
                         output = consolestream.ToString().ToLower();
 
                         // If help command is updated for weighted GPA bypass test
-                        if (output.Contains("create 'name' 'type' 'weighted' - creates a new gradebook where 'name' is the name of the gradebook, 'type' is what type of grading it should use, and 'weighted' is whether or not grades should be weighted (true or false)."))
+                        if (output.Contains("create 'name' 'type' 'weighted' - creates a new gradebook where 'name' is the name of the gradebook, 'type' is what type of grading it should use, and 'weighted' is whether or not grades should be weighted (true or false).."))
                             return;
 
                         // Test if help command message is correct
