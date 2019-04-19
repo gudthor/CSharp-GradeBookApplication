@@ -60,7 +60,7 @@ namespace GradeBook.UserInterfaces
             }
 
 
-            Console.WriteLine("Created gradebook {0}.", name, type);
+            Console.WriteLine("Created gradebook {0}.", name);
             GradeBookUserInterface.CommandLoop(gradeBook);
         }
 
